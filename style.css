@@ -90,3 +90,39 @@ header {
     border-radius: 5px;
     font-weight: 700;
 }
+.sec-three {
+    padding: 0px 65px;
+    padding-top: 50px;
+}
+.sec-three h1 {
+    margin-bottom: 50px;
+    font-size: 2.3rem;
+}
+.flexible-container {
+    display: flex;
+    justify-content: space-between;
+}
+.bal {
+    box-shadow: 0px 0px 50px #8a8a8a;
+    border-left: 8px solid #9C33BC;
+    width: 550px;
+    margin-bottom: 30px;
+}
+.bal:last-of-type {
+    border-left: 8px solid #d820a1;
+}
+.bal h1 {
+    padding: 40px 10px;
+    margin-bottom: 0px;
+    font-size: 2.5rem;
+}
+.bal h3 {
+    padding: 0px 10px;
+    margin-bottom: 30px;
+    color: orange;
+}
+.bal p {
+    padding: 0px 10px;
+    color: rgb(161, 161, 161);
+    margin-bottom: 60px;
+}
