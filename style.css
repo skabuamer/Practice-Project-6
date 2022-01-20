@@ -93,6 +93,8 @@ header {
 .sec-three {
     padding: 0px 65px;
     padding-top: 50px;
+    background: url(images/exp-bg.jpg);
+    background-repeat: no-repeat;
 }
 .sec-three h1 {
     margin-bottom: 50px;
@@ -104,9 +106,9 @@ header {
 }
 .bal {
     box-shadow: 0px 0px 50px #8a8a8a;
-    border-left: 8px solid #9C33BC;
+    border-left: 8px solid #eba329;
     width: 550px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 .bal:last-of-type {
     border-left: 8px solid #d820a1;
@@ -123,6 +125,12 @@ header {
 }
 .bal p {
     padding: 0px 10px;
-    color: rgb(161, 161, 161);
+    color: rgb(0, 0, 0);
     margin-bottom: 60px;
+}
+footer {
+    margin-bottom: 20px;
+}
+footer p {
+    text-align: center;
 }
